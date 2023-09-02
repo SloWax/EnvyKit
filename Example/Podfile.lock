@@ -1,0 +1,16 @@
+PODS:
+  - EnvyKit (0.1.0)
+
+DEPENDENCIES:
+  - EnvyKit (from `../`)
+
+EXTERNAL SOURCES:
+  EnvyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EnvyKit: 6889087cc0cf8196ffac71fc407e431a1aa5fdf6
+
+PODFILE CHECKSUM: bcd5e1844bba2e0d62a427dcbe47ed4d7ae63800
+
+COCOAPODS: 1.12.0

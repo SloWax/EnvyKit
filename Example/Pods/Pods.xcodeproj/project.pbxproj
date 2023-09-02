@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1641604E544CB4A4E10019BE2F34808E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1FE3D9877CF7214E817E35D887BA76CD /* Pods-EnvyKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF484CFF6DAEEAE79E2B06A22D5DC3DD /* Pods-EnvyKit_Example-dummy.m */; };
+		2EDD5EF2C8436949AC3F9819243BF98C /* EnvyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E758DC74DD5F8195F89C8A9B9C4743 /* EnvyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567865DA3D85BF5EF50D8D43771B61B6 /* Pods-EnvyKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7CE7B60B3E8F25667F85072A80FE188 /* Pods-EnvyKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618849A631900894BAA5CD026D20FDC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67368715BE05DFAAFAA0043249C72AD1 /* Pods-EnvyKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA44A0C8B11FA39276855F0F31968C6 /* Pods-EnvyKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6747BE17C944D4A89B59D2B7CFA9F52E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6E1018792AA3787C001FC4ED /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018672AA3787B001FC4ED /* Extension+String.swift */; };
+		6E10187A2AA3787C001FC4ED /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018682AA3787B001FC4ED /* Extension+Date.swift */; };
+		6E10187B2AA3787C001FC4ED /* Extension+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018692AA3787B001FC4ED /* Extension+Array.swift */; };
+		6E10187C2AA3787C001FC4ED /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E10186A2AA3787B001FC4ED /* Extension+Int.swift */; };
+		6E10187F2AA3787C001FC4ED /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E10186D2AA3787B001FC4ED /* Extension+UIImage.swift */; };
+		6E1018802AA3787C001FC4ED /* Extension+UINavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E10186E2AA3787B001FC4ED /* Extension+UINavigation.swift */; };
+		6E1018812AA3787C001FC4ED /* Extension+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E10186F2AA3787B001FC4ED /* Extension+UIStackView.swift */; };
+		6E1018832AA3787C001FC4ED /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018712AA3787C001FC4ED /* Extension+UIView.swift */; };
+		6E1018842AA3787C001FC4ED /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018722AA3787C001FC4ED /* Extension+UIButton.swift */; };
+		6E1018852AA3787C001FC4ED /* Extension+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018732AA3787C001FC4ED /* Extension+Optional.swift */; };
+		6E1018862AA3787C001FC4ED /* Extension+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018742AA3787C001FC4ED /* Extension+Codable.swift */; };
+		6E1018872AA3787C001FC4ED /* Extension+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018752AA3787C001FC4ED /* Extension+CGFloat.swift */; };
+		6E1018892AA3787C001FC4ED /* Extension+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1018772AA3787C001FC4ED /* Extension+Double.swift */; };
+		A623C8CB56F60CD58FDE3E385791ADE0 /* Pods-EnvyKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2DA60E08D9F7945F180BBA10AA3A9 /* Pods-EnvyKit_Tests-dummy.m */; };
+		AD4BD17BD6F7540699F2E9723ECF4F3D /* EnvyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBE18E22F952CC30D5991DF1BF7AB2 /* EnvyKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555B3411F93260F520700EE4ADAA78E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE2B1B77CED83F4113088FB2E3D8E27;
+			remoteInfo = "Pods-EnvyKit_Example";
+		};
+		CE5D00820A190B9E01C0186CD92B71A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C793BD76DD4B573A483AE25A71568F;
+			remoteInfo = EnvyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0302C1E9152FAA19B5A2452983E38128 /* EnvyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EnvyKit.debug.xcconfig; sourceTree = "<group>"; };
+		06E758DC74DD5F8195F89C8A9B9C4743 /* EnvyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnvyKit-umbrella.h"; sourceTree = "<group>"; };
+		1AFFF52D1548C23920C2FDBD0C246BB6 /* EnvyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnvyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E4DB1810CC0ED3D31B6D400523E181A /* Pods-EnvyKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnvyKit_Example.modulemap"; sourceTree = "<group>"; };
+		2C1FB664BA90BBB1735B53B99C7F4C88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2CA2DC536957F57E2921E891297FA053 /* Pods-EnvyKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnvyKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2FCCA8104171C6B168261590BC116597 /* Pods-EnvyKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnvyKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30764C15B3026404D8574B834C193FCB /* Pods-EnvyKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnvyKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3224EC5592CEE060EA485CFEBFBBD4CC /* Pods-EnvyKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnvyKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32626087553B7A0AA3B1964856D05086 /* Pods-EnvyKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EnvyKit_Example"; path = Pods_EnvyKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38425E7A62F9C35457CF8E41E069DEFA /* EnvyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnvyKit-prefix.pch"; sourceTree = "<group>"; };
+		3AA44A0C8B11FA39276855F0F31968C6 /* Pods-EnvyKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnvyKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B3C8A296C14A2ADC727D249EC671D21 /* EnvyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EnvyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4AAE003E80D87C8F31BA64BE628996A7 /* Pods-EnvyKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnvyKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5FBA129E696DE958A695DA5968473162 /* EnvyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EnvyKit-Info.plist"; sourceTree = "<group>"; };
+		603C11D1F1FC18F9B51F8C8BAD55AC74 /* EnvyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EnvyKit.modulemap; sourceTree = "<group>"; };
+		63D2DA60E08D9F7945F180BBA10AA3A9 /* Pods-EnvyKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnvyKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E1018672AA3787B001FC4ED /* Extension+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+String.swift"; path = "EnvyKit/Classes/Extension+String.swift"; sourceTree = "<group>"; };
+		6E1018682AA3787B001FC4ED /* Extension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Date.swift"; path = "EnvyKit/Classes/Extension+Date.swift"; sourceTree = "<group>"; };
+		6E1018692AA3787B001FC4ED /* Extension+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Array.swift"; path = "EnvyKit/Classes/Extension+Array.swift"; sourceTree = "<group>"; };
+		6E10186A2AA3787B001FC4ED /* Extension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Int.swift"; path = "EnvyKit/Classes/Extension+Int.swift"; sourceTree = "<group>"; };
+		6E10186D2AA3787B001FC4ED /* Extension+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIImage.swift"; path = "EnvyKit/Classes/Extension+UIImage.swift"; sourceTree = "<group>"; };
+		6E10186E2AA3787B001FC4ED /* Extension+UINavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UINavigation.swift"; path = "EnvyKit/Classes/Extension+UINavigation.swift"; sourceTree = "<group>"; };
+		6E10186F2AA3787B001FC4ED /* Extension+UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIStackView.swift"; path = "EnvyKit/Classes/Extension+UIStackView.swift"; sourceTree = "<group>"; };
+		6E1018712AA3787C001FC4ED /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIView.swift"; path = "EnvyKit/Classes/Extension+UIView.swift"; sourceTree = "<group>"; };
+		6E1018722AA3787C001FC4ED /* Extension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UIButton.swift"; path = "EnvyKit/Classes/Extension+UIButton.swift"; sourceTree = "<group>"; };
+		6E1018732AA3787C001FC4ED /* Extension+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Optional.swift"; path = "EnvyKit/Classes/Extension+Optional.swift"; sourceTree = "<group>"; };
+		6E1018742AA3787C001FC4ED /* Extension+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Codable.swift"; path = "EnvyKit/Classes/Extension+Codable.swift"; sourceTree = "<group>"; };
+		6E1018752AA3787C001FC4ED /* Extension+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+CGFloat.swift"; path = "EnvyKit/Classes/Extension+CGFloat.swift"; sourceTree = "<group>"; };
+		6E1018772AA3787C001FC4ED /* Extension+Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+Double.swift"; path = "EnvyKit/Classes/Extension+Double.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79BBE18E22F952CC30D5991DF1BF7AB2 /* EnvyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EnvyKit-dummy.m"; sourceTree = "<group>"; };
+		85C5C22568B18DC731CEEC9D71EF4075 /* Pods-EnvyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnvyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		896BE9150A15730C6CEAC0924C62316B /* Pods-EnvyKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EnvyKit_Tests"; path = Pods_EnvyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C628DA1A29DA9243A0525D7D03A9DD6 /* Pods-EnvyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnvyKit_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9B7439A8E9406FADB75B44362A6ED1E /* Pods-EnvyKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnvyKit_Example-Info.plist"; sourceTree = "<group>"; };
+		BF484CFF6DAEEAE79E2B06A22D5DC3DD /* Pods-EnvyKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnvyKit_Example-dummy.m"; sourceTree = "<group>"; };
+		C4EF7613D40BF5C55FBD4CA13127FAE2 /* EnvyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EnvyKit.release.xcconfig; sourceTree = "<group>"; };
+		CC4D0A29A99B7BC32FA55011130A7650 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D00947C3C368E4A339BD619EE8E51778 /* Pods-EnvyKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnvyKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3B6D818BF02ABC6C2D897D9F08BAAB6 /* Pods-EnvyKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnvyKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9BEA843CE2511A1B72E8E2606445838 /* Pods-EnvyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnvyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F7CE7B60B3E8F25667F85072A80FE188 /* Pods-EnvyKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnvyKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FBF576A17FE7A34F483088575F1DCD7E /* Pods-EnvyKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnvyKit_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A617B95681D254581D80A75281B7F50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1641604E544CB4A4E10019BE2F34808E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAEA4350AF2125C2EB412A55D5C465E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6747BE17C944D4A89B59D2B7CFA9F52E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7BEA44543C761AA6BD266FE4977F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618849A631900894BAA5CD026D20FDC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F82205C1AB9A25F3597E0FD48A8D1F4 /* EnvyKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E1018692AA3787B001FC4ED /* Extension+Array.swift */,
+				6E1018752AA3787C001FC4ED /* Extension+CGFloat.swift */,
+				6E1018742AA3787C001FC4ED /* Extension+Codable.swift */,
+				6E1018682AA3787B001FC4ED /* Extension+Date.swift */,
+				6E1018772AA3787C001FC4ED /* Extension+Double.swift */,
+				6E10186A2AA3787B001FC4ED /* Extension+Int.swift */,
+				6E1018732AA3787C001FC4ED /* Extension+Optional.swift */,
+				6E1018672AA3787B001FC4ED /* Extension+String.swift */,
+				6E1018722AA3787C001FC4ED /* Extension+UIButton.swift */,
+				6E10186D2AA3787B001FC4ED /* Extension+UIImage.swift */,
+				6E10186E2AA3787B001FC4ED /* Extension+UINavigation.swift */,
+				6E10186F2AA3787B001FC4ED /* Extension+UIStackView.swift */,
+				6E1018712AA3787C001FC4ED /* Extension+UIView.swift */,
+				F80A8AF5003D5DFEB528CB5D77271C4F /* Pod */,
+				7DED93FC39FAEEE7E9FD6CA4A35993AD /* Support Files */,
+			);
+			name = EnvyKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		28AD97FB932A04ADE5727002C4EF3E43 /* Pods-EnvyKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1E4DB1810CC0ED3D31B6D400523E181A /* Pods-EnvyKit_Example.modulemap */,
+				D00947C3C368E4A339BD619EE8E51778 /* Pods-EnvyKit_Example-acknowledgements.markdown */,
+				D3B6D818BF02ABC6C2D897D9F08BAAB6 /* Pods-EnvyKit_Example-acknowledgements.plist */,
+				BF484CFF6DAEEAE79E2B06A22D5DC3DD /* Pods-EnvyKit_Example-dummy.m */,
+				2CA2DC536957F57E2921E891297FA053 /* Pods-EnvyKit_Example-frameworks.sh */,
+				B9B7439A8E9406FADB75B44362A6ED1E /* Pods-EnvyKit_Example-Info.plist */,
+				3AA44A0C8B11FA39276855F0F31968C6 /* Pods-EnvyKit_Example-umbrella.h */,
+				30764C15B3026404D8574B834C193FCB /* Pods-EnvyKit_Example.debug.xcconfig */,
+				4AAE003E80D87C8F31BA64BE628996A7 /* Pods-EnvyKit_Example.release.xcconfig */,
+			);
+			name = "Pods-EnvyKit_Example";
+			path = "Target Support Files/Pods-EnvyKit_Example";
+			sourceTree = "<group>";
+		};
+		3F46F4676AC804D8E88FD951990520C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFF52D1548C23920C2FDBD0C246BB6 /* EnvyKit.framework */,
+				32626087553B7A0AA3B1964856D05086 /* Pods-EnvyKit_Example */,
+				896BE9150A15730C6CEAC0924C62316B /* Pods-EnvyKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DED93FC39FAEEE7E9FD6CA4A35993AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				603C11D1F1FC18F9B51F8C8BAD55AC74 /* EnvyKit.modulemap */,
+				79BBE18E22F952CC30D5991DF1BF7AB2 /* EnvyKit-dummy.m */,
+				5FBA129E696DE958A695DA5968473162 /* EnvyKit-Info.plist */,
+				38425E7A62F9C35457CF8E41E069DEFA /* EnvyKit-prefix.pch */,
+				06E758DC74DD5F8195F89C8A9B9C4743 /* EnvyKit-umbrella.h */,
+				0302C1E9152FAA19B5A2452983E38128 /* EnvyKit.debug.xcconfig */,
+				C4EF7613D40BF5C55FBD4CA13127FAE2 /* EnvyKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EnvyKit";
+			sourceTree = "<group>";
+		};
+		A845B02BA1819C9217B60145B8CC8585 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F82205C1AB9A25F3597E0FD48A8D1F4 /* EnvyKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4AC828A6F8C3BF4A1D6F32BA4C55A37 /* Pods-EnvyKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C628DA1A29DA9243A0525D7D03A9DD6 /* Pods-EnvyKit_Tests.modulemap */,
+				3224EC5592CEE060EA485CFEBFBBD4CC /* Pods-EnvyKit_Tests-acknowledgements.markdown */,
+				2FCCA8104171C6B168261590BC116597 /* Pods-EnvyKit_Tests-acknowledgements.plist */,
+				63D2DA60E08D9F7945F180BBA10AA3A9 /* Pods-EnvyKit_Tests-dummy.m */,
+				FBF576A17FE7A34F483088575F1DCD7E /* Pods-EnvyKit_Tests-Info.plist */,
+				F7CE7B60B3E8F25667F85072A80FE188 /* Pods-EnvyKit_Tests-umbrella.h */,
+				85C5C22568B18DC731CEEC9D71EF4075 /* Pods-EnvyKit_Tests.debug.xcconfig */,
+				D9BEA843CE2511A1B72E8E2606445838 /* Pods-EnvyKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-EnvyKit_Tests";
+			path = "Target Support Files/Pods-EnvyKit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A845B02BA1819C9217B60145B8CC8585 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3F46F4676AC804D8E88FD951990520C2 /* Products */,
+				D762C41C11533ACC393054631930603F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D762C41C11533ACC393054631930603F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AD97FB932A04ADE5727002C4EF3E43 /* Pods-EnvyKit_Example */,
+				C4AC828A6F8C3BF4A1D6F32BA4C55A37 /* Pods-EnvyKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F80A8AF5003D5DFEB528CB5D77271C4F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B3C8A296C14A2ADC727D249EC671D21 /* EnvyKit.podspec */,
+				2C1FB664BA90BBB1735B53B99C7F4C88 /* LICENSE */,
+				CC4D0A29A99B7BC32FA55011130A7650 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A103F253D170A9646B6DB6441D3A8A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EDD5EF2C8436949AC3F9819243BF98C /* EnvyKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DF6FE54E60AA265A8C5E0CD4C949B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67368715BE05DFAAFAA0043249C72AD1 /* Pods-EnvyKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F9820FF02BBD33B76B3D904FEBD9D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567865DA3D85BF5EF50D8D43771B61B6 /* Pods-EnvyKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		319DDD54D687FF3A0922BDEECB232443 /* Pods-EnvyKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD02BC2077B409A27F03B619046417DB /* Build configuration list for PBXNativeTarget "Pods-EnvyKit_Tests" */;
+			buildPhases = (
+				D9F9820FF02BBD33B76B3D904FEBD9D2 /* Headers */,
+				CBA52CE549F6EBE08A5DC9E03E22DD08 /* Sources */,
+				CD7BEA44543C761AA6BD266FE4977F6D /* Frameworks */,
+				A08C5929A6599C77AAE7E8721CA0C1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD65F63DC2E224AFBCB5166C099550D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-EnvyKit_Tests";
+			productName = Pods_EnvyKit_Tests;
+			productReference = 896BE9150A15730C6CEAC0924C62316B /* Pods-EnvyKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFE2B1B77CED83F4113088FB2E3D8E27 /* Pods-EnvyKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BCD44D2EAE520D35E867DF72B0329B /* Build configuration list for PBXNativeTarget "Pods-EnvyKit_Example" */;
+			buildPhases = (
+				D0DF6FE54E60AA265A8C5E0CD4C949B1 /* Headers */,
+				661BFCAA25D5E05647C3810E11EBCA98 /* Sources */,
+				AAEA4350AF2125C2EB412A55D5C465E3 /* Frameworks */,
+				DACA9C37FBB1E94E53A57314F34BD1F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D510A18AD944F69C035D298C1E658407 /* PBXTargetDependency */,
+			);
+			name = "Pods-EnvyKit_Example";
+			productName = Pods_EnvyKit_Example;
+			productReference = 32626087553B7A0AA3B1964856D05086 /* Pods-EnvyKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8C793BD76DD4B573A483AE25A71568F /* EnvyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76111075B618A47BD7D4D7B88663BBD6 /* Build configuration list for PBXNativeTarget "EnvyKit" */;
+			buildPhases = (
+				5A103F253D170A9646B6DB6441D3A8A8 /* Headers */,
+				C52639A5E7742320C37A7D59F75648A0 /* Sources */,
+				A617B95681D254581D80A75281B7F50B /* Frameworks */,
+				9D2CBCDABB98CD4D6115ED5786115D9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnvyKit;
+			productName = EnvyKit;
+			productReference = 1AFFF52D1548C23920C2FDBD0C246BB6 /* EnvyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F8C793BD76DD4B573A483AE25A71568F = {
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3F46F4676AC804D8E88FD951990520C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C793BD76DD4B573A483AE25A71568F /* EnvyKit */,
+				CFE2B1B77CED83F4113088FB2E3D8E27 /* Pods-EnvyKit_Example */,
+				319DDD54D687FF3A0922BDEECB232443 /* Pods-EnvyKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D2CBCDABB98CD4D6115ED5786115D9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C5929A6599C77AAE7E8721CA0C1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACA9C37FBB1E94E53A57314F34BD1F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661BFCAA25D5E05647C3810E11EBCA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FE3D9877CF7214E817E35D887BA76CD /* Pods-EnvyKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52639A5E7742320C37A7D59F75648A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1018852AA3787C001FC4ED /* Extension+Optional.swift in Sources */,
+				AD4BD17BD6F7540699F2E9723ECF4F3D /* EnvyKit-dummy.m in Sources */,
+				6E1018892AA3787C001FC4ED /* Extension+Double.swift in Sources */,
+				6E1018862AA3787C001FC4ED /* Extension+Codable.swift in Sources */,
+				6E1018872AA3787C001FC4ED /* Extension+CGFloat.swift in Sources */,
+				6E1018842AA3787C001FC4ED /* Extension+UIButton.swift in Sources */,
+				6E10187A2AA3787C001FC4ED /* Extension+Date.swift in Sources */,
+				6E1018792AA3787C001FC4ED /* Extension+String.swift in Sources */,
+				6E10187B2AA3787C001FC4ED /* Extension+Array.swift in Sources */,
+				6E1018812AA3787C001FC4ED /* Extension+UIStackView.swift in Sources */,
+				6E10187F2AA3787C001FC4ED /* Extension+UIImage.swift in Sources */,
+				6E10187C2AA3787C001FC4ED /* Extension+Int.swift in Sources */,
+				6E1018802AA3787C001FC4ED /* Extension+UINavigation.swift in Sources */,
+				6E1018832AA3787C001FC4ED /* Extension+UIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA52CE549F6EBE08A5DC9E03E22DD08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A623C8CB56F60CD58FDE3E385791ADE0 /* Pods-EnvyKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD65F63DC2E224AFBCB5166C099550D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EnvyKit_Example";
+			target = CFE2B1B77CED83F4113088FB2E3D8E27 /* Pods-EnvyKit_Example */;
+			targetProxy = 555B3411F93260F520700EE4ADAA78E3 /* PBXContainerItemProxy */;
+		};
+		D510A18AD944F69C035D298C1E658407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EnvyKit;
+			target = F8C793BD76DD4B573A483AE25A71568F /* EnvyKit */;
+			targetProxy = CE5D00820A190B9E01C0186CD92B71A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DA3A10A26183A1A0951944B6D2DCB30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30764C15B3026404D8574B834C193FCB /* Pods-EnvyKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnvyKit_Example/Pods-EnvyKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnvyKit_Example/Pods-EnvyKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2747B60E23A8023CF6A64DEE1FFF017B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EF7613D40BF5C55FBD4CA13127FAE2 /* EnvyKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EnvyKit/EnvyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EnvyKit/EnvyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EnvyKit/EnvyKit.modulemap";
+				PRODUCT_MODULE_NAME = EnvyKit;
+				PRODUCT_NAME = EnvyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		311B0DC82D495F05A73EEF62BBE489AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C5C22568B18DC731CEEC9D71EF4075 /* Pods-EnvyKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnvyKit_Tests/Pods-EnvyKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnvyKit_Tests/Pods-EnvyKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4135A93E9309FEE75005B67A6C3CD67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAE003E80D87C8F31BA64BE628996A7 /* Pods-EnvyKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnvyKit_Example/Pods-EnvyKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnvyKit_Example/Pods-EnvyKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74CAD69917723EE6543582C4CE048B65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BEA843CE2511A1B72E8E2606445838 /* Pods-EnvyKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EnvyKit_Tests/Pods-EnvyKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnvyKit_Tests/Pods-EnvyKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F81DFCC40E06E95B6E211E50863F885E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0302C1E9152FAA19B5A2452983E38128 /* EnvyKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EnvyKit/EnvyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EnvyKit/EnvyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EnvyKit/EnvyKit.modulemap";
+				PRODUCT_MODULE_NAME = EnvyKit;
+				PRODUCT_NAME = EnvyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76111075B618A47BD7D4D7B88663BBD6 /* Build configuration list for PBXNativeTarget "EnvyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81DFCC40E06E95B6E211E50863F885E /* Debug */,
+				2747B60E23A8023CF6A64DEE1FFF017B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BCD44D2EAE520D35E867DF72B0329B /* Build configuration list for PBXNativeTarget "Pods-EnvyKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA3A10A26183A1A0951944B6D2DCB30 /* Debug */,
+				4135A93E9309FEE75005B67A6C3CD67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD02BC2077B409A27F03B619046417DB /* Build configuration list for PBXNativeTarget "Pods-EnvyKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311B0DC82D495F05A73EEF62BBE489AF /* Debug */,
+				74CAD69917723EE6543582C4CE048B65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
